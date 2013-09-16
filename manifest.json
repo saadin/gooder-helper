@@ -1,0 +1,29 @@
+{
+  "name": "Gooder Helper",
+  "version": "2.0.1",
+  "manifest_version": 2,
+  "description": "This extension helps you in gooder, to put links and tags in comments.",
+  "icons": {
+    "16": "icon16.png",
+	"48": "icon48.png",
+	"128":"icon128.png"
+  },
+  
+  "page_action": {
+    "default_icon": "icon.png", // optional
+    "default_title": "Gooder Helper",    // optional; shown in tooltip
+    "default_popup": "popup.html"    // optional
+  },
+  
+  "background": { 
+		"scripts": ["background.js"] 
+   },
+   
+  
+  "permissions": [
+	"http://*.gooder.us/*","https://*.gooder.us/*","http://*.174.142.15.1/*","https://*.174.142.15.1/*",
+    "contextMenus",
+	"tabs"
+  ]
+  
+}

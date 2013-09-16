@@ -1,0 +1,30 @@
+body {
+	min-width:357px;
+	overflow-x:hidden;
+	height:70px;
+}
+
+.container{
+	display: block;
+	border: 2px solid #3b6280;
+	border-radius:4px;
+	float: left;
+	position: relative;
+	padding: 4px;
+	height:102px;
+	margin: 3px 5px 10px 1px;
+}
+
+#buttons{
+	width:50px;
+}
+#fields{
+	width:250px;
+}
+
+.but{
+	width: 50px;
+}
+.text{
+	width:97%;
+}
